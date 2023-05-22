@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Modelo_BD_Acuario" id="7DB4EC52-FC14-B7D7-5732-8A19AC20A2AE" version="3.5">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 21:07:08 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>7DB4EC52-FC14-B7D7-5732-8A19AC20A2AE</designId>
+</OSDM_Design>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E19F8B65-6E1F-0F75-DC84-1CF38D41E6DE" containerWithKeyObject="FF0A7B00-4ADD-68CE-AE5A-E3DEA26DD681" localFKIndex="7DF3C206-B697-16CB-96BF-655AF19F5B60" name="Sucursal_Correo_FK">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 23:05:44 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<referredTableLongName>Correo</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>882E8E98-A55B-93AD-3645-F05F8E557D50</referredTableID>
+<keyObject>4440FEAF-33B5-8B79-5A2E-EC0A66053614</keyObject>
+<referredKeyID>4440FEAF-33B5-8B79-5A2E-EC0A66053614</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id_Correo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

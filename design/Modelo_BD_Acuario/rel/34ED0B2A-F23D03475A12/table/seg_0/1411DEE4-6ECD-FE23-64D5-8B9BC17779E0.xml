@@ -1,0 +1,171 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1411DEE4-6ECD-FE23-64D5-8B9BC17779E0" name="Usr_Acuario.Habitat">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 21:32:59 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Habitat" id="181F4A1E-04F3-5E40-22C9-1FB870EEA1D5">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 21:37:51 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_Habitat" id="B0B207EB-85BC-2C8B-B4F1-42A87CF10DCF">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-05-08 20:05:48 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ancho" id="BAD2BA1B-0969-F928-376E-723AE3BFC907">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 21:37:51 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Largo" id="66E68341-6373-2CD0-F072-8EA08263E57B">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 21:37:51 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Alto" id="4C3D2DC9-7310-6D77-E9AA-534982CFEA90">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 21:37:51 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="D88E46FA-8873-CF0D-0AC0-12F4A8FD61C2">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 21:37:51 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Temperatura" id="598D53C2-9716-ED6B-9B7F-07EAE4D4751C">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 21:37:51 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,3,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PH_Agua" id="E9232E41-075F-E488-0BA9-762A0123843C">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 21:37:51 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_Tipo_de_Agua" id="BFC31340-3BD6-DB4B-4ED6-677440AD8485">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 21:42:08 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="095CDCF1-C5AC-24E3-5FE9-32B101EE2006" referredColumn="EDE65858-EDE6-1E6E-8F2D-A780E05430F9"/>
+</associations>
+</Column>
+<Column name="Id_Material" id="9D06277C-4C0C-0184-EEBF-8BA72C42923E">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 21:43:23 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D96A0D86-1694-CFB1-F68B-002E69E81B6B" referredColumn="48B59291-4B4C-03F3-2C5A-934CB41A3513"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6F139E53-4970-074E-BEC9-C2DDB9D0FDC8" name="Habitat_PK">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 21:37:51 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="181F4A1E-04F3-5E40-22C9-1FB870EEA1D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3431435A-3781-2F06-E3F6-2E4704D2E614" name="Habitat_Tipo_Agua_FK">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 21:42:08 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BFC31340-3BD6-DB4B-4ED6-677440AD8485"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="41FDB543-260F-9F94-D5AC-9C97B91252D4" name="Habitat_Material_FK">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 21:43:23 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D06277C-4C0C-0184-EEBF-8BA72C42923E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

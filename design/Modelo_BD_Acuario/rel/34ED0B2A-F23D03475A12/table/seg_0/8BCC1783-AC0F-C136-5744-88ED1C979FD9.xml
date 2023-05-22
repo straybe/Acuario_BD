@@ -1,0 +1,196 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8BCC1783-AC0F-C136-5744-88ED1C979FD9" name="Usr_Acuario.Animal">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 21:46:25 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Animal" id="86D5B97D-6DF9-DC8F-AE88-9E7B06750393">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 21:48:13 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_Animal" id="BAC421E5-FA77-062E-275A-C44BE7D910EE">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 21:48:13 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cantidad_de_Alimento" id="83E202BA-3DF4-F045-D634-2B82C4F3971A">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 21:48:13 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Condicion_Especial" id="0999EB75-2115-A0F9-E56F-F2E74915CA0A">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-04-14 19:29:04 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_Alimentacion" id="840ECE63-805B-49AB-42F0-EE2B5FAB53A3">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 21:50:34 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BFDE41D6-4629-B5F2-2F10-12573F0EBC4C" referredColumn="54952DBB-3B7C-AA2A-29F5-9ECB717FEC5A"/>
+</associations>
+</Column>
+<Column name="Id_Peligro" id="3BAB0E0F-197F-8F2C-15F4-8B9D76324F9D">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 21:51:45 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2268C7AD-0F4C-27A9-935F-3FD921DD6A4D" referredColumn="8DB03461-EBDD-C4A0-46B0-8462EBE525BF"/>
+</associations>
+</Column>
+<Column name="Id_Habitat" id="28910F4C-50BA-86CA-D20E-39AF07D1FE0B">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 21:51:58 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FEF96DA6-59F9-5E18-CB7C-816383264B7D" referredColumn="181F4A1E-04F3-5E40-22C9-1FB870EEA1D5"/>
+</associations>
+</Column>
+<Column name="Id_Especie" id="3483D28A-3897-E7EB-99FB-88EA720DF5F0">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-04-13 19:05:16 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6CE28896-25E8-FC30-C5AA-ABE8B717A0D9" referredColumn="2779583C-9D19-4E4E-FAAD-5EE839B5AA05"/>
+</associations>
+</Column>
+<Column name="Id_Sucursal" id="36AF5268-A4AC-1400-AF8D-B65834DE256B">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-04-25 13:44:51 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4542B1D1-D7AB-5650-94B5-609379CF8FB2" referredColumn="1D17F7D5-25C0-7899-1919-488F344EDC18"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3A3D1450-C120-AA8D-244E-924714676482" name="Especie_PK">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 21:49:48 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86D5B97D-6DF9-DC8F-AE88-9E7B06750393"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F45E83D-8A0D-0375-29FE-FC632FC1F221" name="Especie_Alimento_FK">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 21:50:34 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="840ECE63-805B-49AB-42F0-EE2B5FAB53A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B524AA0-213B-45A1-C7A2-84BB1156048A" name="Especie_Peligro_FK">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 21:51:45 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BAB0E0F-197F-8F2C-15F4-8B9D76324F9D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4991889E-493D-2ED5-34E3-E5DACBE17EE8" name="Especie_Habitat_FK">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 21:51:58 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28910F4C-50BA-86CA-D20E-39AF07D1FE0B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FA1E4E39-E8F4-A42B-19D1-6E500159DF55" name="Animal_Especiev_FK">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-04-13 19:05:16 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3483D28A-3897-E7EB-99FB-88EA720DF5F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E843CAE4-50CB-5553-D2A6-5C4A244FD83D" name="Animal_Sucursal_FK">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-04-25 13:44:51 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36AF5268-A4AC-1400-AF8D-B65834DE256B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

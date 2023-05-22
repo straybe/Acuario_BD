@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D96A0D86-1694-CFB1-F68B-002E69E81B6B" containerWithKeyObject="1411DEE4-6ECD-FE23-64D5-8B9BC17779E0" localFKIndex="41FDB543-260F-9F94-D5AC-9C97B91252D4" name="Habitat_Material_FK">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 21:43:23 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<referredTableLongName>Material</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>814EC43D-BFEA-E6A9-8E3C-000204636C3D</referredTableID>
+<keyObject>222DDEF9-C552-1852-C29F-156959147CBE</keyObject>
+<referredKeyID>222DDEF9-C552-1852-C29F-156959147CBE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id_Material</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

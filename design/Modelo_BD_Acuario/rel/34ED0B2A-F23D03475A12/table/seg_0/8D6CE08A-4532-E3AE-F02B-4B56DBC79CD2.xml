@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8D6CE08A-4532-E3AE-F02B-4B56DBC79CD2" name="Usr_Acuario.Estado">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 21:09:40 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Estado" id="F7D2CB4E-D052-30F7-C0D8-337AC4C5B298">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 21:18:10 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_Estado" id="C0BB64D4-A84D-7CFB-A547-208659727478">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 21:18:10 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<ownDataTypeParameters>19,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="36AF4A95-41A3-30C2-AEC8-6093F11DC238" name="Estado_PK">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 21:18:52 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7D2CB4E-D052-30F7-C0D8-337AC4C5B298"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

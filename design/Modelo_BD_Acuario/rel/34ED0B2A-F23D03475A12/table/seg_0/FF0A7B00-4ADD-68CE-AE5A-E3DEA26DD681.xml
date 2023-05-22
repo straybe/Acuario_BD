@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FF0A7B00-4ADD-68CE-AE5A-E3DEA26DD681" name="Usr_Acuario.Sucursal">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 21:54:40 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Sucursal" id="1D17F7D5-25C0-7899-1919-488F344EDC18">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 21:55:28 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_Sucursal" id="A5F279ED-555C-D362-A232-796888050217">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 21:55:28 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Lada" id="297CCDDC-6316-D0CA-5956-044473288CD4">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 21:58:07 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefono" id="E979214D-7AFE-4E07-07E4-F7453BB95816">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 21:58:07 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Extension" id="32D0EE12-3231-4E8B-B61E-69372E21AA2F">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 21:58:07 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pagina_Web" id="13DCA262-ED4A-D504-C82F-F2849A535A54">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 21:58:07 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_Direccion" id="5480B5DE-0B17-B77F-DBA0-F42B0B8B2EEB">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 22:07:46 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="735BEB19-176F-04ED-2957-F6C3ED0AB6FE" referredColumn="24738766-67C3-3555-EF54-D666B104B3C0"/>
+</associations>
+</Column>
+<Column name="Id_Correo" id="CDF059FF-AC72-8D0F-4A6D-8F94BD298A8D">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 23:05:44 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E19F8B65-6E1F-0F75-DC84-1CF38D41E6DE" referredColumn="EF9F291B-F5B6-A1E8-4E17-9455E5D34A24"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="708BC563-05E4-6B94-5286-8720A8E7A810" name="Sucursal_PK">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 21:58:07 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D17F7D5-25C0-7899-1919-488F344EDC18"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B6855119-1087-787B-5078-A9A0EAB17E02" name="Sucursal_Direccion_FK">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 22:07:46 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5480B5DE-0B17-B77F-DBA0-F42B0B8B2EEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7DF3C206-B697-16CB-96BF-655AF19F5B60" name="Sucursal_Correo_FK">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 23:05:44 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CDF059FF-AC72-8D0F-4A6D-8F94BD298A8D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

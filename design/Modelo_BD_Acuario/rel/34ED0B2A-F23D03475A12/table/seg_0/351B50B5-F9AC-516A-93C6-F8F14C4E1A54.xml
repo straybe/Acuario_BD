@@ -1,0 +1,159 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="351B50B5-F9AC-516A-93C6-F8F14C4E1A54" name="Usr_Acuario.Empleado">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 22:11:08 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Empleado" id="F7A9B5E9-DA35-2246-C217-64BCF7220AFA">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 22:12:41 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_Empleado" id="03BBC9C7-D123-35C8-73AC-B076A2B73B01">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 22:12:41 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellido_Parteno" id="DEB781A7-195D-2771-8E77-6ABC0CB870F1">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 22:12:41 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellido_Materno" id="CE79DD5D-F7EF-48DE-7B37-D9F0B5700545">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 22:12:41 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo_de_Empleado" id="2F065F62-9D08-6B91-D894-D08703737E16">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 22:12:41 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_Sucursal" id="41ECC72B-7D37-3431-5D6B-46FA03A9DF9F">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 22:15:17 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="635B1AE0-9B66-9E84-7157-9C0A676AE90F" referredColumn="1D17F7D5-25C0-7899-1919-488F344EDC18"/>
+</associations>
+</Column>
+<Column name="Id_Direccion" id="865B1A48-B849-223A-379D-968BE30EC03B">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 22:15:24 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="62FA6708-79FD-951F-5ECF-47AFB04D2756" referredColumn="24738766-67C3-3555-EF54-D666B104B3C0"/>
+</associations>
+</Column>
+<Column name="Id_Correo" id="1EB5FA11-5EC9-93AF-94C4-2F7A671E2047">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 23:08:26 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1B076E3C-9EDA-0534-992D-928CB3699111" referredColumn="EF9F291B-F5B6-A1E8-4E17-9455E5D34A24"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="40FB26DF-323B-2369-55CE-18FD8085F4D4" name="Empleado_PK">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 22:12:41 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7A9B5E9-DA35-2246-C217-64BCF7220AFA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1DF32894-8221-C59F-4D0C-390D399E71F5" name="Empleado_Sucursal_FK">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 22:15:17 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41ECC72B-7D37-3431-5D6B-46FA03A9DF9F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9FD82BEE-E7B2-674A-704D-5421A6219D2C" name="Empleado_Direccion_FK">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 22:15:24 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="865B1A48-B849-223A-379D-968BE30EC03B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EAFD8A64-A3DC-B07C-132A-D3DE17423119" name="Empleado_Correo_FK">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 23:08:26 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1EB5FA11-5EC9-93AF-94C4-2F7A671E2047"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

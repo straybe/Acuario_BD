@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="095CDCF1-C5AC-24E3-5FE9-32B101EE2006" containerWithKeyObject="1411DEE4-6ECD-FE23-64D5-8B9BC17779E0" localFKIndex="3431435A-3781-2F06-E3F6-2E4704D2E614" name="Habitat_Tipo_Agua_FK">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 21:42:08 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<referredTableLongName>Tipo_Agua</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>374B3D57-2C77-99AF-27C8-0BE06F5D9D0D</referredTableID>
+<keyObject>F6760ECF-FA7C-2B01-A4B2-C35B619B896E</keyObject>
+<referredKeyID>F6760ECF-FA7C-2B01-A4B2-C35B619B896E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id_Tipo_de_Agua</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="374B3D57-2C77-99AF-27C8-0BE06F5D9D0D" name="Usr_Acuario.Tipo_Agua">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 21:23:26 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Tipo_de_Agua" id="EDE65858-EDE6-1E6E-8F2D-A780E05430F9">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 21:28:22 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo_de_Agua" id="8B65F965-3C90-469C-EC3D-B95D1D716FDB">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 21:28:22 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F6760ECF-FA7C-2B01-A4B2-C35B619B896E" name="Tipo_Agua_PK">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 21:28:22 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDE65858-EDE6-1E6E-8F2D-A780E05430F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

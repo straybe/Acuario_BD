@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2268C7AD-0F4C-27A9-935F-3FD921DD6A4D" containerWithKeyObject="8BCC1783-AC0F-C136-5744-88ED1C979FD9" localFKIndex="7B524AA0-213B-45A1-C7A2-84BB1156048A" name="Especie_Peligro_FK">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 21:51:45 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<referredTableLongName>Peligro</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>20F64403-E694-09D1-8581-14296CBD9A14</referredTableID>
+<keyObject>ADE16D0F-0C62-5CBE-D970-0869B5C91CD7</keyObject>
+<referredKeyID>ADE16D0F-0C62-5CBE-D970-0869B5C91CD7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id_Peligro</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

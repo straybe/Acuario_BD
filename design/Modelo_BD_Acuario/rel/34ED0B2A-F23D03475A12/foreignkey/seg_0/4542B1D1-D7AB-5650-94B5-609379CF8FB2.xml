@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4542B1D1-D7AB-5650-94B5-609379CF8FB2" containerWithKeyObject="8BCC1783-AC0F-C136-5744-88ED1C979FD9" localFKIndex="E843CAE4-50CB-5553-D2A6-5C4A244FD83D" name="Animal_Sucursal_FK">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-04-25 13:44:51 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<referredTableLongName>Usr_Acuario.Sucursal</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FF0A7B00-4ADD-68CE-AE5A-E3DEA26DD681</referredTableID>
+<keyObject>708BC563-05E4-6B94-5286-8720A8E7A810</keyObject>
+<referredKeyID>708BC563-05E4-6B94-5286-8720A8E7A810</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id_Sucursal</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

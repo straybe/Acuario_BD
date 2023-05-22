@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2C546E0B-F859-D085-D720-FE9A73C98DE1" name="Usr_Acuario.Alimentacion">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 21:30:02 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Alimentacion" id="54952DBB-3B7C-AA2A-29F5-9ECB717FEC5A">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 21:30:58 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Alimentacion" id="0363C96D-5D89-3D6A-D45F-8A3218BAADC8">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 21:30:58 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="992E031B-4773-CFEE-40C7-8D47F5D9BC9F" name="Alimento_PK">
+<createdBy>Enriq</createdBy>
+<createdTime>2023-03-25 21:50:15 UTC</createdTime>
+<ownerDesignName>Modelo_BD_Acuario</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54952DBB-3B7C-AA2A-29F5-9ECB717FEC5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
